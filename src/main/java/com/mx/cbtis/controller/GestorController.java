@@ -32,7 +32,7 @@ import com.mx.cbtis.modelo.Usuario;
 public class GestorController {
 
 	@org.springframework.beans.factory.annotation.Value("${backend.url:http://localhost:8081}")
-	private String backendUrl;
+	private String backendUrl = "http://localhost:8081";
 
 	// CAMBIO: el RestTemplate ahora se inyecta (antes se creaba con new en cada metodo)
 	private final RestTemplate template;
