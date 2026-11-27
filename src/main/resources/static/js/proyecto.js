@@ -510,7 +510,7 @@ function comentarios(idTarea){
 
 function IrInicio(){
 	window.location.href = 'inicio';
-
+}
 
 function obtenerInfo(datos, objetivo, nombre) {
 	var nuevoTexto = "¿Esta seguro que sea eliminar la tarea " + nombre + "?";
